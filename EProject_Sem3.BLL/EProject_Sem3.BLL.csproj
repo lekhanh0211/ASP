@@ -56,5 +56,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EProject_Sem3.DAL\EProject_Sem3.DAL.csproj">
+      <Project>{71875234-C8A4-44D3-B277-EC0BC3722CCE}</Project>
+      <Name>EProject_Sem3.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

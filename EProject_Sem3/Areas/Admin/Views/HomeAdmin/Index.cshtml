@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    //Lấy ra Session
+    var user = (EProject_Sem3.DAL.AdminLogin)System.Web.HttpContext.Current.Session["Admin"];
+
+}
+
+<div class="container" style="display:flex;flex-direction:column;align-items:center;justify-content:center"> 
+
+    <h2>Welcome to The Admin page</h2>
+
+    <h3>Hello : @user.username</h3>
+</div>

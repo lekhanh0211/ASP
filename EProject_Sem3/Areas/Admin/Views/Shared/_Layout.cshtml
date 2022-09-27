@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Medical Care | Admin</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/Areas/Admin/Content/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Areas/Admin/Content/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/Areas/Admin/Content/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div style="background: #ADD8E6;height: 100vh;position: relative;">
+        <div class="container-fluid">
+            <div class="row align-items-center" style="background:#369369">
+                <div class="col-lg-4">
+                    <img src="https://blog.hubspot.com/hubfs/become-medical-sales-rep.jpg" style="width:300px" />
+                </div>
+                <div class="col-lg-4 col-6">
+                    <p style="color:#1F1FFF ;font-style:italic;font-weight: bold;font-size: 60px;text-align: center;">
+                        Medical Care
+                    </p>
+                </div>
+                <div class="col-lg-4 col-6 text-right">
+                    <img src="https://blog.hubspot.com/hubfs/become-medical-sales-rep.jpg" style="width:300px" />
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+        <!-- Navbar Start -->
+        <div class="container-fluid mb-30"
+             style="width: 98%;border-top: 3px solid #1F1FFF;border-bottom: 3px solid #1F1FFF;">
+
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg" style="justify-content: center;flex-direction:column;">
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="~/Admin/HomeAdmin/Index" class="nav-item nav-link active"
+                               style="color: #1F1FFF;font-weight: bold;">Home</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                   style="color: #1F1FFF;font-weight: bold;">
+                                    Add Resource
+                                </a>
+                                <div class="dropdown-menu rounded-0 border-0 m-0">
+                                    <a href="" class="dropdown-item" style="color: #1F1FFF;font-weight: bold;">
+                                        Shopping
+                                        Cart
+                                    </a>
+                                    <a href="" class="dropdown-item"
+                                       style="color: #1F1FFF;font-weight: bold;">Checkout</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                   style="color: #1F1FFF;font-weight: bold;">
+                                    Employee
+                                    Supports
+                                </a>
+                                <div class="dropdown-menu rounded-0 border-0 m-0">
+                                    <a href="" class="dropdown-item" style="color: #1F1FFF;font-weight: bold;">
+                                        Shopping
+                                        Cart
+                                    </a>
+                                    <a href="" class="dropdown-item"
+                                       style="color: #1F1FFF;font-weight: bold;">Checkout</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                   style="color: #1F1FFF;font-weight: bold;">Search</a>
+                                <div class="dropdown-menu rounded-0 border-0 m-0">
+                                    <a href="" class="dropdown-item" style="color: #1F1FFF;font-weight: bold;">fd</a>
+                                    <a href="" class="dropdown-item" style="color: #1F1FFF;font-weight: bold;">dsds</a>
+                                </div>
+                            </div>
+                            <a href="~/Admin/Request/Index" class="nav-item nav-link"
+                               style="color: #1F1FFF;font-weight: bold;">Request Status</a>
+                            <a href="~/Admin/Login/Logout" class="nav-item nav-link"
+                               style="color: #1F1FFF;font-weight: bold;">Logout</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+        @RenderBody()
+        <!-- Footer Start -->
+        <div class="container-fluid" style="width:98%;bottom: 2%;position:absolute;left: 1%;background:#369369;">
+
+            <p style="color:#FFF;text-align: center;margin-top: 1rem;">
+                &copy;All Rights Reserved.
+            </p>
+
+        </div>
+        <!-- Footer End -->
+    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="~/Areas/Admin/Content/mail/jqBootstrapValidation.min.js"></script>
+    <script src="~/Areas/Admin/Content/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/Areas/Admin/Content/js/main.js"></script>
+</body>
+
+</html>

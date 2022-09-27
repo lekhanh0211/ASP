@@ -1,4 +1,5 @@
-﻿using EProject_Sem3.DAL.Migrations;
+﻿using EProject_Sem3.DAL.DataMapping;
+using EProject_Sem3.DAL.Migrations;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -17,5 +18,6 @@ namespace EProject_Sem3.DAL
         public virtual DbSet<AdminLogin> AdminLogins { get; set; }
         public virtual DbSet<CompanyDetails> CompanyDetails { get; set; }
         public virtual DbSet<Policies> Policies { get; set; }
+        public virtual DbSet<EmpRegister> EmpRegisters { get; set; }
     }
 }

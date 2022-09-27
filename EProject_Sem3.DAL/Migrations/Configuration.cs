@@ -11,7 +11,7 @@ namespace EProject_Sem3.DAL.Migrations
         {
             AutomaticMigrationsEnabled = true;
             AutomaticMigrationDataLossAllowed = true;
-            ContextKey = "EProject_Sem3.DAL.EProject_Sem3";
+            ContextKey = "EProject_Sem3.DAL.Eproject_DbContext";
         }
 
         protected override void Seed(EProject_Sem3.DAL.Eproject_DbContext context)

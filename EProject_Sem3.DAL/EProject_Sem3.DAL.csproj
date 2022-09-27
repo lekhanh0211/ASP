@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="DataMapping\AdminLogin.cs" />
     <Compile Include="DataMapping\CompanyDetails.cs" />
+    <Compile Include="DataMapping\EmpRegister.cs" />
     <Compile Include="DataMapping\Eproject_DbContext.cs" />
     <Compile Include="DataMapping\Policies.cs" />
     <Compile Include="Migrations\Configuration.cs" />

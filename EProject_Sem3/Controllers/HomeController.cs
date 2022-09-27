@@ -26,5 +26,18 @@ namespace EProject_Sem3.Controllers
 
             return View();
         }
+        public ActionResult FeedBack()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult News()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }

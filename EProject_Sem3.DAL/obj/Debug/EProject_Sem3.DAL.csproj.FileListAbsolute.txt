@@ -9,4 +9,3 @@ C:\Users\Admin\source\repos\EProject_Sem3\EProject_Sem3.DAL\obj\Debug\EProject_S
 C:\Users\Admin\source\repos\EProject_Sem3\EProject_Sem3.DAL\obj\Debug\EProject_Sem3.DAL.csproj.CopyComplete
 C:\Users\Admin\source\repos\EProject_Sem3\EProject_Sem3.DAL\obj\Debug\EProject_Sem3.DAL.dll
 C:\Users\Admin\source\repos\EProject_Sem3\EProject_Sem3.DAL\obj\Debug\EProject_Sem3.DAL.pdb
-C:\Users\Admin\source\repos\EProject_Sem3\EProject_Sem3.DAL\obj\Debug\EProject_Sem3.DAL.csproj.AssemblyReference.cache
